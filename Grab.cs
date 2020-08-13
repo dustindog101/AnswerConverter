@@ -12,7 +12,7 @@ namespace AnswerConverter
             string outp = null;
             foreach (string newline in inp.Split(new[] { '_' }))
             {
-                int index = Program.Q.IndexOf(Environment.NewLine);
+                int index = Globalvariables.Q.IndexOf(Environment.NewLine);
                 //   Program.Q = Program.Q.Substring(index + Environment.NewLine.Length);
                 outp = newline.ToString() + "_";
 
@@ -54,7 +54,7 @@ string outp = null;
             string outp = null;
             foreach (string newline in inp.Split(new[] { '?' }))
             {
-                int index = Program.Q.IndexOf(Environment.NewLine);
+                int index = Globalvariables.Q.IndexOf(Environment.NewLine);
              //   Program.Q = Program.Q.Substring(index + Environment.NewLine.Length);
                 outp = newline.ToString() + "?";
 

@@ -9,7 +9,7 @@ namespace AnswerConverter
     {
         public static void Title(int QC,int AC)
         {
-            Console.Title = $"Answer Converter by dustin | Questions loaded:{QC} | Answers Loaded{AC}";
+            Console.Title = $"Answer Converter by Dustin | Questions loaded:{QC} | Answers Loaded{AC}";
         }
             
     }
