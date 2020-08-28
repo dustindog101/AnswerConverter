@@ -1,6 +1,4 @@
-﻿using System;
-using System.Reflection.Metadata;
-//using Microsoft.Office.Interop.Word;
+using System;
 using static System.Net.Mime.MediaTypeNames;
 using System.IO;
 using System.Text.RegularExpressions;
